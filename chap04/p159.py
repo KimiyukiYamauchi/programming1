@@ -6,11 +6,12 @@ def perrin(m = 100):
         a, b, c = b, c, a + b
     return results
 
-# print(perrin())
+print(perrin(100))
 
-p_list = perrin(100000)
+# p_list = perrin(100000)
+p_list = perrin(100)
 x_list = list()
-for n,p in enumerate(p_list):
+for p, n in enumerate(p_list):
     if n == 0:
         continue
     print((n, p), end = ' ')
