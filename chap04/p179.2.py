@@ -1,0 +1,8 @@
+def is_even(x):
+    '''偶数なら True'''
+    return x % 2 == 0
+
+
+# 偶数だけで取得します
+for e in filter(is_even, range(1, 11)):
+    print(e, end=" ")
