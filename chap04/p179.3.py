@@ -1,5 +1,5 @@
 pairs = [(2, 'down'), (1, 'up'), (4, 'charm'), (3, 'strange'), (6, 'top'), (5, 'bottom')]
-#print(pairs)
+print(pairs)
 #pairs.sort()
 #print(pairs)
 #pairs.sort(key=lambda x: x[1])
