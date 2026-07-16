@@ -4,9 +4,10 @@ animal = 'cat'
 print("animal:", animal)
 
 def my_func():
+    global animal
     animal = 'dog'
     print("animal in my_func:", animal)
 
 my_func()
 
-print("animal global after my_func", animal)
+print("animal global after my_func:", animal)
